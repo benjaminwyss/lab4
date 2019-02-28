@@ -1,11 +1,18 @@
 <?php
-  echo "<h>1-100 Multiplication Table</h>";
-  echo "<table><tr>";
-  for($i = 0; $i <= 100; $i++)
+  echo "<h>1-100 Multiplication Table</h><hr>";
+  echo "<table><tr><th>#</th>";
+  for($i = 1; $i <= 100; $i++)
   {
     echo "<th>" . $i . "</th>";
   }
-  echo "</tr>";
+  for($i = 1; $i <= 100; $i++)
+  {
+    echo "</tr><tr>";
+    echo "<th>" . $i . "</th>";
+    for($j = 1; $j <= 100; $j++)
+    {
 
-  echo "</table>";
+    }
+  }
+  echo "</tr></table>";
  ?>
