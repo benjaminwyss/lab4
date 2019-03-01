@@ -9,6 +9,40 @@
 
   <body>
 
+    <h1>Welcome to Benjamin's Bookstore</h1><hr><br>
+    <form name="bookstore" action="customerBackend.php" onsubmit="return validateForm()" method="post">
+    Username: <input type="text" name="username">
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    Password: <input type="password" name="password"><br><br>
+    <table>
+      <tr>
+        <th>Book Name</th>
+        <th>Price</th>
+        <th>Quantity to Order</th>
+      </tr>
+      <tr>
+        <td>Animal Farm,<br><br>by George Orwell</td>
+        <td>$10.00</td>
+        <td><input type="text" name="animalFarm"></td>
+      </tr>
+      <tr>
+        <td>The Catcher in the Rye,<br><br>by J.D. Salinger</td>
+        <td>$7.00</td>
+        <td><input type="text" name="catcherInTheRye"></td>
+      </tr>
+      <tr>
+        <td>Ender's Game,<br><br>by Orson Scott Card</td>
+        <td>$5.00</td>
+        <td><input type="text" name="endersGame"></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    Shipping Options:<br>
+    <input type="radio" name="shipping" value="50">$50.00 Overnight Shipping<br>
+    <input type="radio" name="shipping" value="5">$5.00 3-Day Shipping<br>
+    <input type="radio" name="shipping" value="0">Free 7-Day Shipping<br><br>
 
+    <input type="submit" value="Submit Order">
 
   </body>

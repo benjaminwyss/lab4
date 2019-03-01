@@ -1,6 +1,6 @@
 body
 {
-  background-color: lavender;
+  background-color: rgb(254, 225, 152);
 }
 
 table, th, td
@@ -20,23 +20,21 @@ h1
   color: black;
 }
 
-h3
-{
-  font-family: "Courier New";
-  font-size: 18pt;
-  color: black;
-}
-
-p
+p, form, input[type=submit]
 {
   color: black;
   font-family: "Courier New";
   font-size: 12pt;
 }
 
-a
+input[type=text], input[type=password]
 {
-  color: black;
-  font-family: "Courier New";
-  font-size: 12pt;
+  border: none;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  font-family: "Courier New"
+}
+input[type=text]:focus, input[type=password]:focus
+{
+  border: 2px solid rgb(0, 0, 0);
+  font-family: "Courier New"
 }
