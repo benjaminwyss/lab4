@@ -22,10 +22,9 @@ h1
 h4
 {
   font-family: "Courier New";
-  font-size: 18pt;
+  font-size: 22pt;
   color: black;
 }
-
 
 p, form, input[type=submit]
 {
@@ -40,6 +39,7 @@ input[type=text], input[type=password]
   border-bottom: 1px solid rgb(200, 200, 200);
   font-family: "Courier New"
 }
+
 input[type=text]:focus, input[type=password]:focus
 {
   border: 2px solid rgb(0, 0, 0);
